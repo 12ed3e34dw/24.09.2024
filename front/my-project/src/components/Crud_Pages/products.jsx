@@ -56,12 +56,9 @@ function ProductList(props)
                 <thead>
                 <tr>
                     <th>ID:</th>
-                    <th>Name:</th>
-                    <th>Brand:</th>
-                    <th>Category:</th>
-                    <th>Price:</th>
+                    <th>Color:</th>
                     <th>Description:</th>
-                    <th>CreatedAt:</th>
+
 
                 </tr>
                 </thead>
@@ -74,12 +71,8 @@ function ProductList(props)
                         return(
                            <tr key={index}>
                                <td>{products.id}</td>
-                               <td>{products.name}</td>
-                               <td>{products.brand}</td>
-                               <td>{products.category}</td>
-                               <td>{products.price}$</td>
+                               <td>{products.color}</td>
                                <td>{products.description}</td>
-                               <td>{products.createdAt}</td>
                                <td style={{width:"10px",whiteSpace:"nowrap"}}>
                                    <button type="button" className="btn btn-primary btn-sm ne-2">Edit</button>
                                    <button type="button" className="btn btn-danger btn-sm">Delete</button>
@@ -106,7 +99,7 @@ function handleSubmit(event)
 
     const product=Object.fromEntries(formData.entries());
 
-    if(!product.name || !product.brand || !product.category || !product.price)
+    if(!product.color || !product.description)
     {
         console.log("Please provide all the required fields!");
         return;

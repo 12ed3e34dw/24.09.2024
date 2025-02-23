@@ -1,21 +1,13 @@
 {
   "products": [
     {
-      "name": "Ноутбук Apple MacBook Air 13\" M1 8/256GB 2020 (MGN63) Space Gray",
-      "brand": "Apple ",
-      "category": "Ноутбуки и компьютеры",
-      "price": "37000",
-      "description": "Экран 13.3\" Retina (2560x1600) WQXGA, глянцевый / Apple M1 / \u200B\u200BRAM 8 ГБ / SSD 256 ГБ / Apple M1 Graphics / Wi-Fi / Bluetooth / macOS Big Sur / 1.29 кг / серый",
-      "createdAt": "2025-08-06",
+       "color": "red",
+      "description": "-",
       "id": 1
     },
     {
-      "name": "Компьютер ARTLINE Gaming X47 (X47v73) AMD Ryzen 5 7500F / B650M / 32Gb DDR5-5200 Gaming / SSD 1TB NVME / GeForce RTX 4060 TI 8GB / MESH 550W 80+ Bronze / Tower ARGB",
-      "brand": "-",
-      "category": "Ноутбуки и компьютеры",
-      "price": "48000",
-      "description": "AMD Ryzen 5 7500F (3.7 - 5.0 ГГц) / RAM 32 ГБ / SSD 1 ТБ / nVidia GeForce RTX 4060 Ti 8 ГБ / 550 Вт / LAN / без ОД / без ОС",
-      "createdAt": "2025-08-06",
+      "color": "blue",
+      "description": "-",
       "id": 2
     }
   ]
